@@ -1,0 +1,40 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Output compressed files & reconstructed arrays generated during test/eval
+*.bin
+out.bin
+rebuilt.npy
+*.rebuilt.npy
+reconstructed*.npy
+test_*.npy
+*.png
+*.jpg
+*.jpeg
+
+# Jupyter / Scratch files
+.ipynb_checkpoints/
+scratch/
+
+# IDE & OS files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Large practice datasets (~50MB - do not push to GitHub)
+practice/*.npy
+*.npy
+
